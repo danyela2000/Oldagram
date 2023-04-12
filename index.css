@@ -1,0 +1,82 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* layout */
+.header-container,
+.first-section,
+.user-interaction{
+    display: flex;
+}
+
+.header-container{
+    align-items: center;
+    border-bottom:1px solid #C6C6C6;
+    padding:14px 16px 8px 15px;
+}
+
+.first-section{
+    align-items: center;
+    padding:20px 10px 10px 10px;
+}
+
+.user-interaction{
+    flex-direction: column;
+    padding-left:10px;
+}
+
+/* typography */
+.first-section h3, .first-section p{
+    margin-bottom: 0;
+    margin-left:10px;
+}
+
+.first-section h3, .first-section p, .second-section p {
+    margin-top:0;
+}
+
+h3, .bold-text{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+p{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+
+/* images */
+.logo-img{
+    width: 100px;
+    height: 45px;
+    margin-right: auto;
+}
+
+.avatar{
+    width: 34px;
+    height: 34px;
+    border-radius:50%;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.icons{
+    display: flex;
+    padding-top:10px;
+    
+}
+
+.icon-img{
+    width: 23px;
+    height: 23px;
+    margin-right: 10px;
+}
+
+.icon-img:hover, 
+.icon-img:focus{
+    transform: scale(1.1);
+}
